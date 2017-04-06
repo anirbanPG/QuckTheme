@@ -1,12 +1,4 @@
 <?php 
-// ==============Support dynamically all featured====================
-function theme_title(){
-    //===title support dynamically===
-    add_theme_support('title-tag');
-}
-add_action('after_setup_theme','theme_title');
-
-
 
 /*=============Load CSS jS dynamically ===============*/
 function Load_Css_JS(){
